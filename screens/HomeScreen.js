@@ -42,8 +42,8 @@ export default function HomeScreen() {
             onPress={handleLearnMorePress}
             source={
               __DEV__
-                ? require('../assets/images/college_logo.jpg')
-                : require('../assets/images/college_logo.jpg')
+                ? require('../assets/images/college_logo.png')
+                : require('../assets/images/college_logo.png')
             }
             style={styles.collegeImage}
           />
@@ -147,6 +147,8 @@ const styles = StyleSheet.create({
     marginTop: 20,
     marginBottom: 20,
     marginLeft: -10,
+    backgroundColor: 'black',
+
   },
   getStartedContainer: {
     alignItems: 'center',
