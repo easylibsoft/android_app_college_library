@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Easylib MSRMC",
-    "slug": "easylibmsrmc",
+    "name": "Easylib MCC",
+    "slug": "easylibmcc",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -27,7 +27,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package":"com.easylib.msrmc",
+      "package":"com.easylib.mcc",
       "permissions":[]
     }
   }

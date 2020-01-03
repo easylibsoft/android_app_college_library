@@ -37,7 +37,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for M S Ramaiah Medical College</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for Mount Carmel College</Text>
           <Image
             onPress={handleLearnMorePress}
             source={
@@ -79,27 +79,7 @@ HomeScreen.navigationOptions = {
   header: null,
 };
 
-function DevelopmentModeNotice() {
-  if (__DEV__) {
-    const learnMoreButton = (
-      <Text onPress={handleLearnMorePress} style={styles.helpLinkText}>
-        Learn more
-      </Text>
-    );
 
-    return (
-      <Text style={styles.developmentModeText}>
-        Easylib for M S Ramaiah Medical College {learnMoreButton}
-      </Text>
-    );
-  } else {
-    return (
-      <Text style={styles.developmentModeText}>
-        Easylib for M S Ramaiah Medical College
-      </Text>
-    );
-  }
-}
 
 function handleLearnMorePress() {
   WebBrowser.openBrowserAsync(
@@ -142,7 +122,7 @@ const styles = StyleSheet.create({
     marginLeft: -10,
   },
   collegeImage: {
-    height: 80,
+    height: 160,
     resizeMode: 'contain',
     marginTop: 20,
     marginBottom: 20,
