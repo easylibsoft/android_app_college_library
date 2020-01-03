@@ -26,10 +26,10 @@ export default function SettingsScreen() {
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    Sri Devaraj Urs Medical College
+    Brindavan College
     </Text>
     <Text style={styles.getStartedText}>
-    office@sdumc.ac.in
+    info@brindavancollege.com
     </Text>
     </View>
   );

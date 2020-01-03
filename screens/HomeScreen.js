@@ -37,7 +37,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for Sri Devaraj Urs Medical College</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for Brindavan College</Text>
           <Image
             onPress={handleLearnMorePress}
             source={
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     marginLeft: -10,
   },
   collegeImage: {
-    height: 80,
+    height: 60,
     resizeMode: 'contain',
     marginTop: 20,
     marginBottom: 20,

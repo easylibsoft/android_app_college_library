@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Easylib Sri Devaraj Urs Medical College",
-    "slug": "easylibsdumc",
+    "name": "Easylib Brindavan College",
+    "slug": "easylibbrindavan",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -27,7 +27,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package":"com.easylib.sdumc",
+      "package":"com.easylib.brindavan",
       "permissions":[]
     }
   }
