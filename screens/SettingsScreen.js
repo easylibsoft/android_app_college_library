@@ -20,16 +20,16 @@ export default function SettingsScreen() {
 
     <View style={styles.contentContainer}>
     <Text style={styles.getStartedText}>
-    Jafar Basha
+    John Clarence
     </Text>
     <Text style={styles.getStartedText}>
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    BITM, Ballari
+    St. John's Medical College
     </Text>
     <Text style={styles.getStartedText}>
-    bitmbly@gmail.com
+    sjmc.library@stjohns.in
     </Text>
     </View>
   );
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     marginTop: 3,
     marginLeft: -10,
   },
-  bitmImage: {
+  collegeImage: {
     height: 80,
     resizeMode: 'contain',
     marginTop: 20,
