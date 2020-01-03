@@ -37,15 +37,15 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for BITM</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for St. John's Medical College</Text>
           <Image
             onPress={handleLearnMorePress}
             source={
               __DEV__
-                ? require('../assets/images/bitm_logo.jpg')
-                : require('../assets/images/bitm_logo.jpg')
+                ? require('../assets/images/college_logo.jpg')
+                : require('../assets/images/college_logo.jpg')
             }
-            style={styles.bitmImage}
+            style={styles.collegeImage}
           />
 
 
@@ -89,13 +89,13 @@ function DevelopmentModeNotice() {
 
     return (
       <Text style={styles.developmentModeText}>
-        Easylib for BITM {learnMoreButton}
+        Easylib for St. John's Medical College {learnMoreButton}
       </Text>
     );
   } else {
     return (
       <Text style={styles.developmentModeText}>
-        Easylib for BITM
+        Easylib for St. John's Medical College
       </Text>
     );
   }
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     marginTop: 3,
     marginLeft: -10,
   },
-  bitmImage: {
+  collegeImage: {
     height: 80,
     resizeMode: 'contain',
     marginTop: 20,

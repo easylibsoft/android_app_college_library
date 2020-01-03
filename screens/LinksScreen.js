@@ -8,7 +8,7 @@ import { WebView } from 'react-native-webview';
 export default function LinksScreen() {
   return (
 
-    <WebView source={{ uri: 'http://bitm.easylib.net' }} style={{ marginTop: 20 }} />);
+    <WebView source={{ uri: 'http://stjohnsmc.easylib.net' }} style={{ marginTop: 20 }} />);
 
     /*
     <ScrollView style={styles.container}>
