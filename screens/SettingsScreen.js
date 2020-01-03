@@ -20,16 +20,16 @@ export default function SettingsScreen() {
 
     <View style={styles.contentContainer}>
     <Text style={styles.getStartedText}>
-    
+
     </Text>
     <Text style={styles.getStartedText}>
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    Kristu Jayanti College
+    Sri Devaraj Urs Medical College
     </Text>
     <Text style={styles.getStartedText}>
-    info@kristujayanti.com
+    office@sdumc.ac.in
     </Text>
     </View>
   );
