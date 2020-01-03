@@ -27,7 +27,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package":"com.easylib.stjohnsmc",
+      "package":"com.easylib.msrmc",
       "permissions":[]
     }
   }
