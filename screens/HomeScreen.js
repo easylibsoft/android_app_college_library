@@ -89,13 +89,13 @@ function DevelopmentModeNotice() {
 
     return (
       <Text style={styles.developmentModeText}>
-        Easylib for St. John's Medical College {learnMoreButton}
+        Easylib for M S Ramaiah Medical College {learnMoreButton}
       </Text>
     );
   } else {
     return (
       <Text style={styles.developmentModeText}>
-        Easylib for St. John's Medical College
+        Easylib for M S Ramaiah Medical College
       </Text>
     );
   }
