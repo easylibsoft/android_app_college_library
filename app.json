@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Easylib MCC",
-    "slug": "easylibmcc",
+    "name": "Easylib Kristu Jayanti College",
+    "slug": "easylibkjc",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -27,7 +27,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package":"com.easylib.mcc",
+      "package":"com.easylib.kjc",
       "permissions":[]
     }
   }
