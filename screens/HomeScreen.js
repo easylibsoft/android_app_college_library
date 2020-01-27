@@ -37,7 +37,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for Brindavan College</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for Jnana Jyothi Degree College</Text>
           <Image
             onPress={handleLearnMorePress}
             source={

@@ -26,10 +26,10 @@ export default function SettingsScreen() {
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    Brindavan College
+    Jnana Jyothi Degree College
     </Text>
     <Text style={styles.getStartedText}>
-    info@brindavancollege.com
+    info@jnanajyothiynk.com
     </Text>
     </View>
   );

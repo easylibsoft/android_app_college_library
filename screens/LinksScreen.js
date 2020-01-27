@@ -17,8 +17,8 @@ export default function LinksScreen() {
   return (
 
     <WebView
-      source={{ uri: 'http://brindavan.easylib.net' }}
-      style={{ marginTop: 1 }}
+      source={{ uri: 'http://jjdc.easylib.net' }}
+      style={{ marginTop: 5 }}
       onError={(e)=> {
         return(
           <View>
