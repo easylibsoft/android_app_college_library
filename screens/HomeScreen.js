@@ -122,12 +122,11 @@ const styles = StyleSheet.create({
     marginLeft: -10,
   },
   collegeImage: {
-    height: 60,
+    width: 250,
+    height: 80,
     resizeMode: 'contain',
-    marginTop: 20,
-    marginBottom: 20,
+    marginTop: 3,
     marginLeft: -10,
-
   },
   getStartedContainer: {
     alignItems: 'center',
