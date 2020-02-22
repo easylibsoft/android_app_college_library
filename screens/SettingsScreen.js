@@ -26,10 +26,10 @@ export default function SettingsScreen() {
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    Jnana Jyothi Degree College
+    Vivekananda College of Arts, Science & Commerce
     </Text>
     <Text style={styles.getStartedText}>
-    info@jnanajyothiynk.com
+    principalvcputtur@gmail.com
     </Text>
     </View>
   );

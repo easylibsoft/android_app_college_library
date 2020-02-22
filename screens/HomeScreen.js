@@ -37,7 +37,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for Jnana Jyothi Degree College</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for Vivekananda College Of Arts, Science and Commerce</Text>
           <Image
             onPress={handleLearnMorePress}
             source={
@@ -123,9 +123,10 @@ const styles = StyleSheet.create({
   },
   collegeImage: {
     width: 250,
-    height: 80,
+    height: 150,
     resizeMode: 'contain',
-    marginTop: 3,
+    marginTop: 10,
+    marginBottom: 10,
     marginLeft: -10,
   },
   getStartedContainer: {
