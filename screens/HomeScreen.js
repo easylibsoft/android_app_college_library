@@ -37,7 +37,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for Vivekananda College Of Arts, Science and Commerce</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for Rani Channamma University</Text>
           <Image
             onPress={handleLearnMorePress}
             source={

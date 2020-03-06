@@ -26,10 +26,10 @@ export default function SettingsScreen() {
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    Vivekananda College of Arts, Science & Commerce
+    Rani Channamma University
     </Text>
     <Text style={styles.getStartedText}>
-    principalvcputtur@gmail.com
+    rcub.ac.in
     </Text>
     </View>
   );
