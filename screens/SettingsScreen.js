@@ -20,16 +20,16 @@ export default function SettingsScreen() {
 
     <View style={styles.contentContainer}>
     <Text style={styles.getStartedText}>
-    John Clarence
+
     </Text>
     <Text style={styles.getStartedText}>
     Librarian
     </Text>
     <Text style={styles.getStartedText}>
-    St. John's Medical College
+    Rani Channamma University
     </Text>
     <Text style={styles.getStartedText}>
-    sjmc.library@stjohns.in
+    rcub.ac.in
     </Text>
     </View>
   );

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Easylib",
-    "slug": "easylibcollege",
+    "name": "Easylib Rani Channamma University",
+    "slug": "easylibrcu",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -27,7 +27,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package":"com.easylib.stjohnsmc",
+      "package":"com.easylib.rcu",
       "permissions":[]
     }
   }

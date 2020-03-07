@@ -37,7 +37,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
 
 
-          <Text style={styles.getStartedText}>Welcome to Easylib for St. John's Medical College</Text>
+          <Text style={styles.getStartedText}>Welcome to Easylib for Rani Channamma University</Text>
           <Image
             onPress={handleLearnMorePress}
             source={
@@ -79,27 +79,7 @@ HomeScreen.navigationOptions = {
   header: null,
 };
 
-function DevelopmentModeNotice() {
-  if (__DEV__) {
-    const learnMoreButton = (
-      <Text onPress={handleLearnMorePress} style={styles.helpLinkText}>
-        Learn more
-      </Text>
-    );
 
-    return (
-      <Text style={styles.developmentModeText}>
-        Easylib for St. John's Medical College {learnMoreButton}
-      </Text>
-    );
-  } else {
-    return (
-      <Text style={styles.developmentModeText}>
-        Easylib for St. John's Medical College
-      </Text>
-    );
-  }
-}
 
 function handleLearnMorePress() {
   WebBrowser.openBrowserAsync(
@@ -142,13 +122,12 @@ const styles = StyleSheet.create({
     marginLeft: -10,
   },
   collegeImage: {
-    height: 80,
+    width: 250,
+    height: 150,
     resizeMode: 'contain',
-    marginTop: 20,
-    marginBottom: 20,
+    marginTop: 10,
+    marginBottom: 10,
     marginLeft: -10,
-    backgroundColor: 'black',
-
   },
   getStartedContainer: {
     alignItems: 'center',

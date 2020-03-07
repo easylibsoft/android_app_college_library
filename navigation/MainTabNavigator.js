@@ -46,7 +46,7 @@ const LinksStack = createStackNavigator(
 LinksStack.navigationOptions = {
   tabBarLabel: 'Access Catalog',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'md-book' : 'md-books'} />
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'md-book' : 'md-book'} />
   ),
 };
 

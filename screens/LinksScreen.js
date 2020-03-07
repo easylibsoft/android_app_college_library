@@ -17,8 +17,8 @@ export default function LinksScreen() {
   return (
 
     <WebView
-      source={{ uri: 'http://stjohnsmc.easylib.net' }}
-      style={{ marginTop: 20 }}
+      source={{ uri: 'http://rcu.easylib.net' }}
+      style={{ marginTop: 5 }}
       onError={(e)=> {
         return(
           <View>
@@ -33,10 +33,10 @@ export default function LinksScreen() {
       return(
         <View style={styles.errorContainer}>
           <Text>
-          Unable to access server.
+          Server Offline
           </Text>
           <Text>
-          Please check your internet connection or try again later.
+          Please try again later
           </Text>
         </View>
       )
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   },
   errorContainer: {
     alignItems:'center',
-    flex: 10,
-    backgroundColor:'white'
+    backgroundColor:'lightblue',
+    padding: 15
   }
 });
